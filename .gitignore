@@ -17,3 +17,10 @@ yarn-error.log
 /.idea
 /.vscode
 ruangfasilkom.zip
+vendor/
+node_modules/
+*.zip
+*.rar
+*.mp4
+*.iso
+
