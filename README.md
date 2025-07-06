@@ -37,7 +37,8 @@ git clone https://github.com/namamu/ruangfasilkom.git
 cd ruangfasilkom
 
 2. Install Dependency Laravel
-```bash
+Bash
+
 composer install
 
 3. Copy File Environment
