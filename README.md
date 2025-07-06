@@ -1,6 +1,6 @@
 # RuangFasilkom Web-App
 
-**RuangFasilkom** adalah sistem peminjaman ruang kelas berbasis web yang dibangun menggunakan Laravel 9.  
+**RuangFasilkom** adalah sistem peminjaman ruang kelas berbasis web yang dibangun menggunakan Laravel 9.
 Aplikasi ini bertujuan untuk menggantikan proses peminjaman manual yang masih menggunakan kertas, menjadi sistem digital yang efisien, cepat, dan terintegrasi dengan antarmuka modern serta fitur gamifikasi.
 
 ---
@@ -16,11 +16,11 @@ Aplikasi ini bertujuan untuk menggantikan proses peminjaman manual yang masih me
 
 ## 🔑 Akses Pengguna
 
-| Role       | Email     | Password      | Hak Akses                                               |
-|------------|--------------|---------------|----------------------------------------------------------|
-| Admin  | `admin@example.com` | `password`    | Kelola ruang, verifikasi peminjaman, atur user & XP     |
-| Dosen  | `dosen@example.com`      | `password`    | Mengajukan peminjaman, lihat status, dapatkan XP & badge         |
-| Mahasiswa  | `mahasiswa@example.com` | `password`     | Mengajukan peminjaman, lihat status, dapatkan XP & badge|
+| Role        | Email           | Password      | Hak Akses                                                |
+|-------------|-----------------|---------------|----------------------------------------------------------|
+| Admin       | `admin@example.com` | `password`    | Kelola ruang, verifikasi peminjaman, atur user & XP      |
+| Dosen       | `dosen@example.com` | `password`    | Mengajukan peminjaman, lihat status, dapatkan XP & badge |
+| Mahasiswa   | `mahasiswa@example.com` | `password`    | Mengajukan peminjaman, lihat status, dapatkan XP & badge |
 
 > *Catatan:* email & password default bisa diubah setelah login.
 
@@ -30,50 +30,50 @@ Aplikasi ini bertujuan untuk menggantikan proses peminjaman manual yang masih me
 
 Ikuti langkah-langkah berikut untuk menjalankan aplikasi secara lokal:
 
-### 1. Clone Repository
-
+1. Clone Repository
 ```bash
-git clone https://github.com/namamu/ruangfasilkom.git
+git clone [https://github.com/namamu/ruangfasilkom.git](https://github.com/namamu/ruangfasilkom.git)
 cd ruangfasilkom
+Install Dependency Laravel
 
-2. Install Dependency Laravel
 Bash
 
 composer install
+Copy File Environment
 
-3. Copy File Environment
-```bash
+Bash
+
 cp .env.example .env
+Generate Application Key
 
-4. Generate Application Key
-```bash
+Bash
+
 php artisan key:generate
-
-5. Konfigurasi Database
+Konfigurasi Database
 Buka file .env dan ubah konfigurasi database sesuai lokal kamu, contoh:
-```bash
+
+Bash
+
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=ruangfasilkom
 DB_USERNAME=root
 DB_PASSWORD=12345
+Jalankan Migrasi Database
 
-6. Jalankan Migrasi Database
-```bash
+Bash
+
 php artisan migrate
-
-```bash
 php artisan db:seed
+Jalankan NPM untuk Fitur Frontend
 
-7.  Jalankan NPM untuk Fitur Frontend
-```bash
+Bash
+
 npm install
-
-```bash
 npm run dev
+Jalankan Server Laravel
 
-### 8.  Jalankan Server Laravel
-```bash
+Bash
+
 php artisan serve
-
