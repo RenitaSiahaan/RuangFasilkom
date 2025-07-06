@@ -92,7 +92,7 @@ php artisan serve
 <img width="1366" height="626" alt="Image" src="https://github.com/user-attachments/assets/372e841b-a084-494a-b806-9e7e8b4f6831" />
 
 5. Form Peminjaman
-
+<img width="1366" height="683" alt="Image" src="https://github.com/user-attachments/assets/51ae61fe-a6bd-4c5d-b479-4f7cc366f82c" />
 
 6. Admin Home
 <img width="1366" height="628" alt="Image" src="https://github.com/user-attachments/assets/940fe9eb-e81c-4042-9cad-c91b1db6a620" />
