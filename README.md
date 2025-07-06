@@ -36,19 +36,19 @@ Ikuti langkah-langkah berikut untuk menjalankan aplikasi secara lokal:
 git clone https://github.com/namamu/ruangfasilkom.git
 cd ruangfasilkom
 
-### 2. Install Dependency Laravel
+2. Install Dependency Laravel
 ```bash
 composer install
 
-### 3. Copy File Environment
+3. Copy File Environment
 ```bash
 cp .env.example .env
 
-### 4. Generate Application Key
+4. Generate Application Key
 ```bash
 php artisan key:generate
 
-### 5. Konfigurasi Database
+5. Konfigurasi Database
 Buka file .env dan ubah konfigurasi database sesuai lokal kamu, contoh:
 ```bash
 DB_CONNECTION=mysql
@@ -58,14 +58,14 @@ DB_DATABASE=ruangfasilkom
 DB_USERNAME=root
 DB_PASSWORD=12345
 
-### 6. Jalankan Migrasi Database
+6. Jalankan Migrasi Database
 ```bash
 php artisan migrate
 
 ```bash
 php artisan db:seed
 
-### 7.  Jalankan NPM untuk Fitur Frontend
+7.  Jalankan NPM untuk Fitur Frontend
 ```bash
 npm install
 
