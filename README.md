@@ -95,7 +95,7 @@ php artisan serve
 
 
 6. Admin Home
-
+<img width="1366" height="628" alt="Image" src="https://github.com/user-attachments/assets/940fe9eb-e81c-4042-9cad-c91b1db6a620" />
    
 8. Daftar Peminjaman Masuk
 <img width="1366" height="599" alt="Image" src="https://github.com/user-attachments/assets/cb3a2696-4626-4bf7-91eb-9149f8892427" />
