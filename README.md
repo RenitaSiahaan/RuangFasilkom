@@ -64,8 +64,7 @@ DB_PASSWORD=12345
 
 7. Jalankan Migrasi Database
 ```
-php artisan migrate
-php artisan db:seed
+php artisan migrate --seed
 ```
 
 8. Jalankan NPM untuk Fitur Frontend
@@ -78,3 +77,6 @@ npm run dev
 ```
 php artisan serve
 ```
+
+## Author
+Renita Siahaan
