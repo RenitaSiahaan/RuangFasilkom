@@ -78,5 +78,27 @@ npm run dev
 php artisan serve
 ```
 
-## Author
-Renita Siahaan
+## Tampilan Aplikasi
+1. Login Page
+<img width="1304" height="637" alt="Image" src="https://github.com/user-attachments/assets/79eefa12-0b59-4e0a-816b-df0d0b92eaa1" />
+
+2. User Home
+<img width="1366" height="629" alt="Image" src="https://github.com/user-attachments/assets/cec6996a-9969-411d-9b39-20614251d364" />
+
+3. User Room
+<img width="1366" height="639" alt="Image" src="https://github.com/user-attachments/assets/6216aa01-5109-41d4-82b1-4aa764577470" />
+
+4. User History
+<img width="1366" height="626" alt="Image" src="https://github.com/user-attachments/assets/372e841b-a084-494a-b806-9e7e8b4f6831" />
+
+5. Form Peminjaman
+
+
+6. Admin Home
+
+   
+8. Daftar Peminjaman Masuk
+<img width="1366" height="599" alt="Image" src="https://github.com/user-attachments/assets/cb3a2696-4626-4bf7-91eb-9149f8892427" />
+
+9. Proses Admin
+<img width="1366" height="635" alt="Image" src="https://github.com/user-attachments/assets/95f1fb19-864e-49f5-b0b5-8c42a492902f" />
