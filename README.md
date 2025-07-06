@@ -102,3 +102,8 @@ php artisan serve
 
 9. Proses Admin
 <img width="1366" height="635" alt="Image" src="https://github.com/user-attachments/assets/95f1fb19-864e-49f5-b0b5-8c42a492902f" />
+
+## Author
+👨‍💼 Renita Siahaan
+📧 renitaenjelsiahaan@gmail.com
+🎓 Informatika, UPN Veteran Jawa Timur
